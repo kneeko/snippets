@@ -1,6 +1,6 @@
 ## snippets
 
-A simple key-value store application with human-readable keys.
+A simple key-value store application with human-readable keys using Google App Engine.
 
 ## Setup
 Install [Google App Engine SDK for Python](https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python).
