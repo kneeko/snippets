@@ -22,6 +22,8 @@ We can store data by making an HTTP POST request which returns a human-readable 
 
 ### Retrieving data
 
+We can retrieve data by making an HTTP GET request which returns our data in plaintext.
+
     $ curl https://your_project_id.appspot.com/24-graceful-crocodiles-meandered-sadly
     arbitrary data
 
