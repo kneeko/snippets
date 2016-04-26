@@ -1,10 +1,8 @@
 import webapp2
-import json
 import sys
 import os
 
 from google.appengine.ext import ndb
-from google.appengine.ext.db import stats
 from idsentence import IdSentence
 from idsentence import IntIdSentence
 from rate_limit.lib import Limiter, QuotaKey
@@ -42,7 +40,6 @@ def uuid_is_unique(uuid):
 def generate_uuid():
     uuid = None
     while (uuid_is_unique(uuid) == False):
-        generator.generate()
         sentence = generator.generate()
         uuid = sentence[1].replace(' ','-')
     return uuid
