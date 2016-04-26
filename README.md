@@ -1,4 +1,4 @@
-## snippets
+## Snippets
 
 A simple key-value store application with human-readable keys using Google App Engine.
 
@@ -55,5 +55,5 @@ In `app.yaml` there are some parameters you can set.
 
 - You can set the maximum size of the data. The default is 1MB.
 - You can enable expiration and set the expiration time. A cron will run every 24 hours and delete key-value pairs that exceed the expiration time.
-- You can configure rate limiting by IP address. This won't be enough to stop someone determined to abuse your instance of this application. If you are being targeted, it will be more effect to use Google App Engine's [built in DoS protection](https://cloud.google.com/appengine/docs/python/config/dos).
+- You can configure rate limiting by IP address. This alone won't be enough to stop someone determined. Instead use Google App Engine's [built in DoS protection](https://cloud.google.com/appengine/docs/python/config/dos).
 - You can disable the ability to specify a key. If you disable this, all requests with a specified key will fail.
