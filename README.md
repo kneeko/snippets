@@ -1,3 +1,5 @@
+## snippets
+
 A simple key-value store application with human-readable keys.
 
 ## Setup
