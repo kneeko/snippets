@@ -1,4 +1,7 @@
-"""Implement a memorable ID string.
+"""
+https://gist.github.com/prschmid/4447660
+
+Implement a memorable ID string.
 
 The original idea for this comes from Asana where it is documented on their
 blog:
